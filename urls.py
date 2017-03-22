@@ -180,7 +180,32 @@ names = [
     "Yada Yada",
     "Millennium",
     "Muffin Tops",
-    "Summer of George"
+    "Summer of George",
+
+    # Season 9
+    "Butter Shave",
+    "Voice",
+    "Serenity Now",
+    "Blood",
+    "Junk Mail",
+    "Merv Griffin Show",
+    "Slicer",
+    "Betrayal",
+    "Apology",
+    "Strike",
+    "Dealership",
+    "Reverse Peephole",
+    "Cartoon",
+    "Strongbox",
+    "Wizard",
+    "Burning",
+    "Bookstore",
+    "Frogger",
+    "Maid",
+    "Puerto Rican Day",
+    "Clip Show 1",
+    "Clip Show 2",
+    "Finale"
 
 ]
 
@@ -355,12 +380,37 @@ urls = [
     "http://www.seinfeldscripts.com/TheYadaYada.htm",
     "http://www.seinfeldscripts.com/TheMillennium.html",
     "http://www.seinfeldscripts.com/TheMuffinTops.htm",
-    "http://www.seinfeldscripts.com/TheSummerofGeorge.htm"
+    "http://www.seinfeldscripts.com/TheSummerofGeorge.htm",
+
+    # Season 9
+    "http://www.seinfeldscripts.com/TheButterShave.htm",
+    "http://www.seinfeldscripts.com/TheVoice.htm",
+    "http://www.seinfeldscripts.com/TheSerenityNow.htm",
+    "http://www.seinfeldscripts.com/TheBlood.html",
+    "http://www.seinfeldscripts.com/TheJunkMail.htm",
+    "http://www.seinfeldscripts.com/TheMervGriffinShow.htm",
+    "http://www.seinfeldscripts.com/TheSlicer.html",
+    "http://www.seinfeldscripts.com/TheBetrayal.htm",
+    "http://www.seinfeldscripts.com/TheApology.htm",
+    "http://www.seinfeldscripts.com/TheStrike.htm",
+    "http://www.seinfeldscripts.com/TheDealership.htm",
+    "http://www.seinfeldscripts.com/TheReversePeephole.htm",
+    "http://www.seinfeldscripts.com/TheCartoon.htm",
+    "http://www.seinfeldscripts.com/TheStrongbox.htm",
+    "http://www.seinfeldscripts.com/TheWizard.htm",
+    "http://www.seinfeldscripts.com/TheBurning.html",
+    "http://www.seinfeldscripts.com/TheBookstore.htm",
+    "http://www.seinfeldscripts.com/TheFrogger.htm",
+    "http://www.seinfeldscripts.com/TheMaid.htm",
+    "http://www.seinfeldscripts.com/ThePuertoRicanDay.htm",
+    "http://www.seinfeldscripts.com/The-Clip-Show-1.html",
+    "http://www.seinfeldscripts.com/The-Clip-Show-2.html",
+    "http://www.seinfeldscripts.com/TheFinale.htm"
 ]
 i = 0 # index number
 e = 1 # episode number
 s = 1 # season number
-while s < 9:
+while s < 10:
     print(str(s) + " " + str(e) + " " + str(i))
     ep = Episode(names[i], s, e, urls[i])
     eps.append(ep)
