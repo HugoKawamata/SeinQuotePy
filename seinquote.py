@@ -5,6 +5,7 @@ from lxml import html
 import requests
 import urls
 
+
 if len(sys.argv) != 2:
     sys.exit("Usage: seinquote keyphrase\nTo use a keyphrase with"
              "multiple words, enclose the phrase in quotation marks.")
@@ -21,7 +22,7 @@ for episode in urls.eps:
     content = tree.xpath('//div[@id="content"]//p')
     text = ["".join(item.xpath('.//text()')) for item in content]
     if len(text) == 0:
-        exit("Something's wrong with the formatting of episode " + 
+        print("Something's wrong with the formatting of episode " + 
         episode.name)
     final = ""
     for item in text:
@@ -32,4 +33,4 @@ for episode in urls.eps:
         trueEps.append(episode)
 
 for episode in trueEps:
-    print(episode.__repr__() + "\n")
+    print(episode.__repr__())
