@@ -81,7 +81,31 @@ names = [
     "Smelly Car",
     "Handicap Spot",
     "Pilot Part 1",
-    "Pilot Part 2"
+    "Pilot Part 2",
+
+    # Season 5
+    "Mango",
+    "Puffy Shirt",
+    "Glasses",
+    "Sniffling Accountant",
+    "Bris",
+    "Lip Reader",
+    "Non-Fat Yoghurt",
+    "Barber",
+    "Masseuse",
+    "Cigar Store Indian",
+    "Conversion",
+    "Stall",
+    "Dinner Party",
+    "Marine Biologist",
+    "Pie",
+    "Stand-In",
+    "Wife",
+    "Raincoats Part 1",
+    "Raincoats Part 2",
+    "Fire",
+    "Hamptons",
+    "Opposite"
 ]
 
 urls = [
@@ -155,12 +179,36 @@ urls = [
     "http://www.seinfeldscripts.com/TheSmellyCar.htm",
     "http://www.seinfeldscripts.com/TheHandicapSpot.html",
     "http://www.seinfeldscripts.com/ThePilot.html",
-    "http://www.seinfeldscripts.com/ThePilot2.html"
+    "http://www.seinfeldscripts.com/ThePilot2.html",
+
+    # Season 5
+    "http://www.seinfeldscripts.com/TheMango.html",
+    "http://www.seinfeldscripts.com/ThePuffyShirt.htm",
+    "http://www.seinfeldscripts.com/TheGlasses.htm",
+    "http://www.seinfeldscripts.com/TheSniffingAccountant.htm",
+    "http://www.seinfeldscripts.com/TheBris.htm",
+    "http://www.seinfeldscripts.com/TheLipReader.htm",
+    "http://www.seinfeldscripts.com/TheNonFatYogurt.html",
+    "http://www.seinfeldscripts.com/TheBarber.htm",
+    "http://www.seinfeldscripts.com/TheMasseuse.html",
+    "http://www.seinfeldscripts.com/TheCigarStoreIndian.htm",
+    "http://www.seinfeldscripts.com/TheConversion.htm",
+    "http://www.seinfeldscripts.com/TheStall.htm",
+    "http://www.seinfeldscripts.com/TheDinnerParty.html",
+    "http://www.seinfeldscripts.com/TheMarineBiologist.htm",
+    "http://www.seinfeldscripts.com/ThePie.html",
+    "http://www.seinfeldscripts.com/TheStand-In.html",
+    "http://www.seinfeldscripts.com/TheWife.html",
+    "http://www.seinfeldscripts.com/TheRaincoats.html",
+    "http://www.seinfeldscripts.com/TheRaincoats2.html",
+    "http://www.seinfeldscripts.com/TheFire.html",
+    "http://www.seinfeldscripts.com/TheHamptons.htm",
+    "http://www.seinfeldscripts.com/TheOpposite.htm"
 ]
 i = 0 # index number
 e = 1 # episode number
 s = 1 # season number
-while s < 5:
+while s < 6:
     print(str(s) + " " + str(e) + " " + str(i))
     ep = Episode(names[i], s, e, urls[i])
     eps.append(ep)
