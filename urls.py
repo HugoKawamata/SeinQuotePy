@@ -411,7 +411,6 @@ i = 0 # index number
 e = 1 # episode number
 s = 1 # season number
 while s < 10:
-    print(str(s) + " " + str(e) + " " + str(i))
     ep = Episode(names[i], s, e, urls[i])
     eps.append(ep)
     i += 1
