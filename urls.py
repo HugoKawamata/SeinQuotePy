@@ -30,7 +30,32 @@ names = [
     "Deal",
     "Baby Shower",
     "Chinese Restaurant",
-    "Busboy"
+    "Busboy",
+
+    # Season 3
+    "Note",
+    "Truth",
+    "Pen",
+    "Dog",
+    "Library",
+    "Parking Garage",
+    "Cafe",
+    "Tape",
+    "Nose Job",
+    "Stranded",
+    "Alternate Side",
+    "Red Dot",
+    "Subway",
+    "Pez Dispenser",
+    "Suicide",
+    "Fix Up",
+    "Boyfriend Part 1",
+    "Boyfriend Part 2",
+    "Limo",
+    "Good Samaritan",
+    "Letter",
+    "Parking Space",
+    "Keys"
 ]
 
 urls = [
@@ -55,13 +80,36 @@ urls = [
     "http://www.seinfeldscripts.com/TheChineseRestaurant.htm",
     "http://www.seinfeldscripts.com/TheBusboy.htm",
 
-    
-    
+    # Season 3
+    "http://www.seinfeldscripts.com/TheNote.html",
+    "http://www.seinfeldscripts.com/TheTruth.htm",
+    "http://www.seinfeldscripts.com/ThePen.html",
+    "http://www.seinfeldscripts.com/TheDog.htm",
+    "http://www.seinfeldscripts.com/TheLibrary.htm",
+    "http://www.seinfeldscripts.com/TheParkingGarage.htm",
+    "http://www.seinfeldscripts.com/TheCafe.html",
+    "http://www.seinfeldscripts.com/TheTape.htm",
+    "http://www.seinfeldscripts.com/TheNoseJob.html",
+    "http://www.seinfeldscripts.com/TheStranded.html",
+    "http://www.seinfeldscripts.com/TheAlternateSide.htm",
+    "http://www.seinfeldscripts.com/TheRedDot.htm",
+    "http://www.seinfeldscripts.com/TheSubway.htm",
+    "http://www.seinfeldscripts.com/ThePezDispenser.htm",
+    "http://www.seinfeldscripts.com/TheSuicide.html",
+    "http://www.seinfeldscripts.com/TheFixUp.html",
+    "http://www.seinfeldscripts.com/TheBoyfriend1.htm",
+    "http://www.seinfeldscripts.com/TheBoyfriend2.htm",
+    "http://www.seinfeldscripts.com/TheLimo.html",
+    "http://www.seinfeldscripts.com/TheGoodSamaritan.html",
+    "http://www.seinfeldscripts.com/TheLetter.htm",
+    "http://www.seinfeldscripts.com/TheParkingSpace.html",
+    "http://www.seinfeldscripts.com/TheKeys.html"
 ]
 i = 0 # index number
 e = 1 # episode number
 s = 1 # season number
-while s < 3:
+while s < 4:
+    print(str(s) + " " + str(e) + " " + str(i))
     ep = Episode(names[i], s, e, urls[i])
     eps.append(ep)
     i += 1
