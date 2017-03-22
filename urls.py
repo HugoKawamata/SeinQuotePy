@@ -12,7 +12,7 @@ eps = []
 
 names = [
     # Season 1
-    "Pilot",
+    "Seinfeld Chronicles",
     "Stakeout",
     "Robbery",
     "Male Unbonding",
@@ -55,7 +55,33 @@ names = [
     "Good Samaritan",
     "Letter",
     "Parking Space",
-    "Keys"
+    "Keys",
+
+    # Season 4
+    "Trip Part 1",
+    "Trip Part 2",
+    "Pitch",
+    "Ticket",
+    "Wallet",
+    "Watch",
+    "Bubble Boy",
+    "Cheever Letters",
+    "Opera",
+    "Virgin",
+    "Contest",
+    "Airport",
+    "Pick",
+    "Movie",
+    "Visa",
+    "Shoes",
+    "Outing",
+    "Old Man",
+    "Implant",
+    "Junior Mint",
+    "Smelly Car",
+    "Handicap Spot",
+    "Pilot Part 1",
+    "Pilot Part 2"
 ]
 
 urls = [
@@ -103,12 +129,38 @@ urls = [
     "http://www.seinfeldscripts.com/TheGoodSamaritan.html",
     "http://www.seinfeldscripts.com/TheLetter.htm",
     "http://www.seinfeldscripts.com/TheParkingSpace.html",
-    "http://www.seinfeldscripts.com/TheKeys.html"
+    "http://www.seinfeldscripts.com/TheKeys.html",
+
+    # Season 4
+    "http://www.seinfeldscripts.com/TheTrip1.htm",
+    "http://www.seinfeldscripts.com/TheTrip2.htm",
+    "http://www.seinfeldscripts.com/ThePitch.htm",
+    "http://www.seinfeldscripts.com/TheTicket.html",
+    "http://www.seinfeldscripts.com/TheWallet.html",
+    "http://www.seinfeldscripts.com/TheWatch.html",
+    "http://www.seinfeldscripts.com/TheBubbleBoy.htm",
+    "http://www.seinfeldscripts.com/TheCheeverLetters.htm",
+    "http://www.seinfeldscripts.com/TheOpera.html",
+    "http://www.seinfeldscripts.com/TheVirgin.htm",
+    "http://www.seinfeldscripts.com/TheContest.htm",
+    "http://www.seinfeldscripts.com/TheAirport.htm",
+    "http://www.seinfeldscripts.com/ThePick.htm",
+    "http://www.seinfeldscripts.com/TheMovie.htm",
+    "http://www.seinfeldscripts.com/TheVisa.html",
+    "http://www.seinfeldscripts.com/TheShoes.html",
+    "http://www.seinfeldscripts.com/TheOuting.htm",
+    "http://www.seinfeldscripts.com/TheOldMan.htm",
+    "http://www.seinfeldscripts.com/TheImplant.html",
+    "http://www.seinfeldscripts.com/TheJuniorMints.htm",
+    "http://www.seinfeldscripts.com/TheSmellyCar.htm",
+    "http://www.seinfeldscripts.com/TheHandicapSpot.html",
+    "http://www.seinfeldscripts.com/ThePilot.html",
+    "http://www.seinfeldscripts.com/ThePilot2.html"
 ]
 i = 0 # index number
 e = 1 # episode number
 s = 1 # season number
-while s < 4:
+while s < 5:
     print(str(s) + " " + str(e) + " " + str(i))
     ep = Episode(names[i], s, e, urls[i])
     eps.append(ep)
