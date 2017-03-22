@@ -105,7 +105,34 @@ names = [
     "Raincoats Part 2",
     "Fire",
     "Hamptons",
-    "Opposite"
+    "Opposite",
+
+    # Season 6
+    "Chaperone",
+    "Big Salad",
+    "Pledge Drive",
+    "Chinese Woman",
+    "Couch",
+    "Gymnast",
+    "Soup",
+    "Mom And Pop Store",
+    "Secretary",
+    "Race",
+    "Switch",
+    "Label Maker",
+    "Scofflaw",
+    "Highlights of 100 1",
+    "Highlights of 100 2",
+    "Beard",
+    "Kiss Hello",
+    "Doorman",
+    "Jimmy",
+    "Doodle",
+    "Fusilli Jerry",
+    "Diplomat Club",
+    "Face Painter",
+    "Understudy"
+
 ]
 
 urls = [
@@ -203,12 +230,38 @@ urls = [
     "http://www.seinfeldscripts.com/TheRaincoats2.html",
     "http://www.seinfeldscripts.com/TheFire.html",
     "http://www.seinfeldscripts.com/TheHamptons.htm",
-    "http://www.seinfeldscripts.com/TheOpposite.htm"
+    "http://www.seinfeldscripts.com/TheOpposite.htm",
+
+    # Season 6
+    "http://www.seinfeldscripts.com/TheChaperone.html",
+    "http://www.seinfeldscripts.com/TheBigSalad.html",
+    "http://www.seinfeldscripts.com/ThePledgeDrive.html",
+    "http://www.seinfeldscripts.com/TheChineseWoman.htm",
+    "http://www.seinfeldscripts.com/TheCouch.html",
+    "http://www.seinfeldscripts.com/TheGymnast.html",
+    "http://www.seinfeldscripts.com/TheSoup.html",
+    "http://www.seinfeldscripts.com/TheMomAndPopStore.html",
+    "http://www.seinfeldscripts.com/TheSecretary.html",
+    "http://www.seinfeldscripts.com/TheRace.html",
+    "http://www.seinfeldscripts.com/TheSwitch.htm",
+    "http://www.seinfeldscripts.com/TheLabelMaker.html",
+    "http://www.seinfeldscripts.com/TheScofflaw.htm",
+    "http://www.seinfeldscripts.com/Highlights-of-100-1.html",
+    "http://www.seinfeldscripts.com/Highlights-of-100-2.html",
+    "http://www.seinfeldscripts.com/TheBeard.htm",
+    "http://www.seinfeldscripts.com/TheKissHello.html",
+    "http://www.seinfeldscripts.com/TheDoorman.html",
+    "http://www.seinfeldscripts.com/TheJimmy.htm",
+    "http://www.seinfeldscripts.com/TheDoodle.htm",
+    "http://www.seinfeldscripts.com/TheFusilliJerry.htm",
+    "http://www.seinfeldscripts.com/TheDiplomatClub.htm",
+    "http://www.seinfeldscripts.com/TheFacePainter.html",
+    "http://www.seinfeldscripts.com/TheUnderstudy.html"
 ]
 i = 0 # index number
 e = 1 # episode number
 s = 1 # season number
-while s < 6:
+while s < 7:
     print(str(s) + " " + str(e) + " " + str(i))
     ep = Episode(names[i], s, e, urls[i])
     eps.append(ep)
