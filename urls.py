@@ -131,7 +131,33 @@ names = [
     "Fusilli Jerry",
     "Diplomat Club",
     "Face Painter",
-    "Understudy"
+    "Understudy",
+
+    # Season 7
+    "Engagement",
+    "Postponement",
+    "Maestro",
+    "Wink",
+    "Hot Tub",
+    "Soup Nazi",
+    "Secret Code",
+    "Pool Guy",
+    "Sponge",
+    "Gum",
+    "Rye",
+    "Caddy",
+    "Seven",
+    "Cadillac Part 1",
+    "Cadillac Part 2",
+    "Shower Head",
+    "Doll",
+    "Friars Club",
+    "Wig Master",
+    "Calzone",
+    "Bottle Deposit Part 1",
+    "Bottle Deposit Part 2",
+    "Wait Out",
+    "Invitations"
 
 ]
 
@@ -256,12 +282,38 @@ urls = [
     "http://www.seinfeldscripts.com/TheFusilliJerry.htm",
     "http://www.seinfeldscripts.com/TheDiplomatClub.htm",
     "http://www.seinfeldscripts.com/TheFacePainter.html",
-    "http://www.seinfeldscripts.com/TheUnderstudy.html"
+    "http://www.seinfeldscripts.com/TheUnderstudy.html",
+
+    # Season 7
+    "http://www.seinfeldscripts.com/TheEngagement.html",
+    "http://www.seinfeldscripts.com/ThePostponement.html",
+    "http://www.seinfeldscripts.com/TheMaestro.htm",
+    "http://www.seinfeldscripts.com/TheWink.html",
+    "http://www.seinfeldscripts.com/TheHotTub.htm",
+    "http://www.seinfeldscripts.com/TheSoupNazi.htm",
+    "http://www.seinfeldscripts.com/TheSecretCode2.htm",
+    "http://www.seinfeldscripts.com/ThePoolGuy.html",
+    "http://www.seinfeldscripts.com/TheSponge.html",
+    "http://www.seinfeldscripts.com/TheGum.html",
+    "http://www.seinfeldscripts.com/TheRye.htm",
+    "http://www.seinfeldscripts.com/TheCaddy.html",
+    "http://www.seinfeldscripts.com/TheSeven.html",
+    "http://www.seinfeldscripts.com/TheCadillac1.html",
+    "http://www.seinfeldscripts.com/TheCadillac2.html",
+    "http://www.seinfeldscripts.com/TheShowerhead.htm",
+    "http://www.seinfeldscripts.com/TheDoll.htm",
+    "http://www.seinfeldscripts.com/TheFriarsClub.html",
+    "http://www.seinfeldscripts.com/TheWigMaster.htm",
+    "http://www.seinfeldscripts.com/TheCalzone.htm",
+    "http://www.seinfeldscripts.com/TheBottleDeposit1.html",
+    "http://www.seinfeldscripts.com/TheBottleDeposit2.html",
+    "http://www.seinfeldscripts.com/TheWaitOut.htm",
+    "http://www.seinfeldscripts.com/TheInvitations.htm"
 ]
 i = 0 # index number
 e = 1 # episode number
 s = 1 # season number
-while s < 7:
+while s < 8:
     print(str(s) + " " + str(e) + " " + str(i))
     ep = Episode(names[i], s, e, urls[i])
     eps.append(ep)
