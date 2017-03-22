@@ -157,7 +157,30 @@ names = [
     "Bottle Deposit Part 1",
     "Bottle Deposit Part 2",
     "Wait Out",
-    "Invitations"
+    "Invitations",
+
+    # Season 8
+    "Foundation",
+    "Bizzaro Jerry",
+    "Little Kicks",
+    "Package",
+    "Fatigues",
+    "Checks",
+    "Chicken Roaster",
+    "Abstinence",
+    "Andrea Doria",
+    "Little Jerry",
+    "Money",
+    "Comeback",
+    "Van Buren Boys",
+    "Susie",
+    "Pothole",
+    "English Patient",
+    "Nap",
+    "Yada Yada",
+    "Millennium",
+    "Muffin Tops",
+    "Summer of George"
 
 ]
 
@@ -308,12 +331,36 @@ urls = [
     "http://www.seinfeldscripts.com/TheBottleDeposit1.html",
     "http://www.seinfeldscripts.com/TheBottleDeposit2.html",
     "http://www.seinfeldscripts.com/TheWaitOut.htm",
-    "http://www.seinfeldscripts.com/TheInvitations.htm"
+    "http://www.seinfeldscripts.com/TheInvitations.htm",
+
+    # Season 8
+    "http://www.seinfeldscripts.com/TheFoundation.html",
+    "http://www.seinfeldscripts.com/TheSoulMate.html",
+    "http://www.seinfeldscripts.com/TheBizarroJerry.htm",
+    "http://www.seinfeldscripts.com/TheLittleKicks.htm",
+    "http://www.seinfeldscripts.com/ThePackage.htm",
+    "http://www.seinfeldscripts.com/TheFatigues.html",
+    "http://www.seinfeldscripts.com/TheChecks.html",
+    "http://www.seinfeldscripts.com/TheChickenRoaster.htm",
+    "http://www.seinfeldscripts.com/TheAbstinence.htm",
+    "http://www.seinfeldscripts.com/TheAndreaDoria.htm",
+    "http://www.seinfeldscripts.com/TheLittleJerry.html",
+    "http://www.seinfeldscripts.com/TheMoney.html",
+    "http://www.seinfeldscripts.com/TheComeback.html",
+    "http://www.seinfeldscripts.com/TheVanBurenBoys.htm",
+    "http://www.seinfeldscripts.com/TheSuzie.htm",
+    "http://www.seinfeldscripts.com/ThePothole.htm",
+    "http://www.seinfeldscripts.com/TheEnglishPatient.html",
+    "http://www.seinfeldscripts.com/TheNap.html",
+    "http://www.seinfeldscripts.com/TheYadaYada.htm",
+    "http://www.seinfeldscripts.com/TheMillennium.html",
+    "http://www.seinfeldscripts.com/TheMuffinTops.htm",
+    "http://www.seinfeldscripts.com/TheSummerofGeorge.htm"
 ]
 i = 0 # index number
 e = 1 # episode number
 s = 1 # season number
-while s < 8:
+while s < 9:
     print(str(s) + " " + str(e) + " " + str(i))
     ep = Episode(names[i], s, e, urls[i])
     eps.append(ep)
