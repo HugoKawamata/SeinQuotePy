@@ -31,6 +31,10 @@ for episode in urls.eps:
     # Scan it for instances of quot
     if quot in final:
         trueEps.append(episode)
-
+        print("□", end="")
+    else:
+        print("■", end="")
+    sys.stdout.flush()
+print("\n")
 for episode in trueEps:
     print(episode.__repr__())
