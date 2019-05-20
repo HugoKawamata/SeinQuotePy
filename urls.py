@@ -258,7 +258,7 @@ urls = [
 
     # Season 4
     "http://www.seinfeldscripts.com/TheTrip1.htm",
-    "http://www.seinfeldscripts.com/TheTrip2.htm",
+    "http://www.seinfeldscripts.com/TheTrip2.html",
     "http://www.seinfeldscripts.com/ThePitch.htm",
     "http://www.seinfeldscripts.com/TheTicket.html",
     "http://www.seinfeldscripts.com/TheWallet.html",
@@ -285,7 +285,7 @@ urls = [
     # Season 5
     "http://www.seinfeldscripts.com/TheMango.html",
     "http://www.seinfeldscripts.com/ThePuffyShirt.htm",
-    "http://www.seinfeldscripts.com/TheGlasses.htm",
+    "http://www.seinfeldscripts.com/TheGlasses.html",
     "http://www.seinfeldscripts.com/TheSniffingAccountant.htm",
     "http://www.seinfeldscripts.com/TheBris.htm",
     "http://www.seinfeldscripts.com/TheLipReader.htm",
