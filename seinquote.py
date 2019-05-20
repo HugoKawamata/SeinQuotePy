@@ -40,7 +40,7 @@ for episode in urls.eps:
             print("■", end="")
         sys.stdout.flush()
     except:
-        print(episode.name)
+        print("Something's wrong with the formatting of episode", episode.name)
         pass
 print("\n")
 
